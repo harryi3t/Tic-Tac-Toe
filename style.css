@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #262323;
+    margin: 0 auto;
+}
+div[id^="player"]{
+ width: 150px;
+    height: 50px;
+    font-size: 35px;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+    position: absolute;
+   
+}
+#player1 {
+    top: 120px;
+}
+#player2 {
+    left: 88%;
+    top: 120px;
+}
+.container{
+    width: 360px;
+    height: 360px;
+    border: 1px solid transparent;
+
+position: absolute;
+top: 120px;
+left: 500px;
+}
+div[id^="block"]{
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+#block1{
+top:0px;
+left: 0px;
+border-top: transparent;
+border-left: transparent; 
+}
+
+#block2{
+    top: 0px;
+    left: 120px;
+border-top: transparent;
+}
+#block3{
+    top: 0px;
+    left: 240px;
+    border-top: transparent;
+    border-right: transparent; 
+    border-left: transparent;
+}
+#block4{
+    top: 120px;
+    left: 0px;
+    border-left: transparent
+}
+#block5{
+    top: 120px;
+    left: 120px;
+}
+#block6{
+    top: 120px;
+    left: 240px;
+    border-right: transparent;
+    border-left: transparent;
+}
+#block7{
+    top: 240px;
+    left: 0px;
+    border-bottom: transparent; 
+    border-left: transparent;
+    border-top: transparent;
+}
+#block8{
+    top: 240px;
+    left: 120px;
+    border-bottom: transparent; 
+    border-top: transparent;
+}
+#block9{
+    top: 240px;
+    left: 240px;
+    border-right:transparent;
+    border-bottom: transparent; 
+    border-left: transparent;
+    border-top: transparent;
+}
+div[id^="box"]{
+    display: none;
+    font-size: 80px;
+    margin-left: 43px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.line {
+    display: none;
+}
+#diagonal1 {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 510px;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+#diagonal2 {
+    position: absolute;
+    margin-left: 53.5vmin;
+    border-top: 1px solid black;
+    width:510px;
+    transform: rotate(135deg);
+    transform-origin: 0% 0%;
+}
+
+div[id^="vertical"] {
+    position: absolute;
+    border-left: 1px solid #000;
+    height: 360px;
+}
+
+#vertical1{
+    margin-left: 62px;
+}
+
+#vertical2 {
+    margin-left: 183px;
+}
+#vertical3 {
+    margin-left: 302px;
+}
+
+div[id^="hori"] {
+    position: absolute;
+    border-top: 1px solid #000;
+    width: 360px;
+}
+
+#hori1 {
+    margin-top: 60px;
+}
+
+#hori2 {
+    margin-top: 180px;
+}
+#hori3 {
+    margin-top: 300px;
+}
+button {
+    width: 200px;
+    height: 70px;
+    font-size: 50px;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+}
+#btn{
+    left: 480px;
+    top: 500px;
+}
+#btn2{
+    left: 700px;
+    top: 500px;
+}
+#score1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+font-size: 30px;
+position: absolute;
+top: 180px;
+}
+#score2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+font-size: 30px;
+position: absolute;
+top: 180px;
+left: 1205px;
+}

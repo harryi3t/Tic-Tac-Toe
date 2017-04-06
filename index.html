@@ -4,342 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style type="text/css">
-        .container {
-            height: 54vmin;
-            width: 54vmin;
-            margin: 0 auto;
-            min-height: 20vmin;
-            min-width: 20vmin;
-        }
-        
-        .box {
-            background-color: blue;
-            height: 17.5vmin;
-            width: 17.5vmin;
-            float: left;
-            margin: 0 .5;
-        }
-        
-        .outer {
-            width: 54vmin;
-            height: 18vmin;
-        }
-        
-        #b1 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b11 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b2 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b21 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b3 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b31 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b4 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b41 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b5 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b51 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b6 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b61 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b7 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b71 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b8 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b81 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b9 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        
-        #b91 {
-            display: none;
-            font-size: 15vmin;
-            position: relative;
-            float: left;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="outer">
-            <div class="box" onclick="k('b1','b11')">
-                <div id="b1">x</div>
-                <div id="b11">o</div>
-            </div>
-            <div class="box" onclick="k('b2','b21')">
-                <div id="b2">x</div>
-                <div id="b21">o</div>
-            </div>
-            <div class="box" onclick="k('b3','b31')">
-                <div id="b3">x</div>
-                <div id="b31">o</div>
-            </div>
-
-        </div>
-        <div class="outer">
-            <div class="box" onclick="k('b4','b41')">
-                <div id="b4">x</div>
-                <div id="b41">o</div>
-            </div>
-            <div class="box" onclick="k('b5','b51')">
-                <div id="b5">x</div>
-                <div id="b51">o</div>
-            </div>
-            <div class="box" onclick="k('b6','b61')">
-                <div id="b6">x</div>
-                <div id="b61">o</div>
-            </div>
-        </div>
-
-        <div class="outer">
-            <div class="box" onclick="k('b7','b71')">
-                <div id="b7">x</div>
-                <div id="b71">o</div>
-            </div>
-            <div class="box" onclick="k('b8','b81')">
-                <div id="b8">x</div>
-                <div id="b81">o</div>
-            </div>
-            <div class="box" onclick="k('b9','b91')">
-                <div id="b9">x</div>
-                <div id="b91">o</div>
-            </div>
-        </div>
+    <div id="winner-board">
+        <h2>Tic Tac Toe</h2>
     </div>
-    <script type="text/javascript">
-        var flag = 1;
-        var arr = ["", "", "", "", "", "", "", "", "", ""];
+    <div id="player1">Player1</div>
+    <div id="score1">0</div>
+    <div class="container">
 
-        function k(i, j) {
-            var k = i;
+        <div class="line" id="diagonal1"></div>
+        <div class="line" id="diagonal2"></div>
+        <div class="line" id="hori1"></div>
+        <div class="line" id="hori2"></div>
+        <div class="line" id="hori3"></div>
 
-            var res = k.substring(1);
+        <div class="line" id="vertical1"></div>
+        <div class="line" id="vertical2"></div>
+        <div class="line" id="vertical3"></div>
 
-            if (flag == 1 && arr[res] == "") {
-                document.getElementById(i).style.display = 'block';
-                arr[res] = 'x';
-                flag = 0;
-                check();
-            } else if (flag == 0 && arr[res] == "") {
-                document.getElementById(j).style.display = 'block';
-                arr[res] = 'o';
-                flag = 1;
-                check();
-            } else {
+        <div id="block1" onclick="k('box1','box11')">
+            <div class="red" id="box1">x</div>
+            <div class="blue" id="box11">o</div>
+        </div>
+        <div id="block2" onclick="k('box2','box21')">
+            <div class="red"  id="box2">x</div>
+            <div class="blue" id="box21">o</div>
+        </div>
+        <div id="block3" onclick="k('box3','box31')">
+            <div class="red"  id="box3">x</div>
+            <div class="blue" id="box31">o</div>
+        </div>
 
-            }
-        }
+        <div id="block4" onclick="k('box4','box41')">
+            <div class="red"  id="box4">x</div>
+            <div class="blue" id="box41">o</div>
+        </div>
+        <div id="block5" onclick="k('box5','box51')">
+            <div class="red"  id="box5">x</div>
+            <div class="blue" id="box51">o</div>
+        </div>
+        <div id="block6" onclick="k('box6','box61')">
+            <div class="red"  id="box6">x</div>
+            <div class="blue" id="box61">o</div>
+        </div>
 
-        function check() {
-            if (arr[1] != "" && arr[2] != "" && arr[3] != "" && arr[1] == 'x' && arr[2] == 'x' && arr[3] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[1] != "" && arr[2] != "" && arr[3] != "" && arr[1] == 'o' && arr[2] == 'o' && arr[3] == 'o') {
-                alert("O is winner");
-            }
-            if (arr[4] != "" && arr[5] != "" && arr[6] != "" && arr[4] == 'x' && arr[5] == 'x' && arr[6] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[1] != "" && arr[5] != "" && arr[6] != "" && arr[4] == 'o' && arr[5] == 'o' && arr[6] == 'o') {
-                alert("O is winner");
-            }
-            if (arr[7] != "" && arr[8] != "" && arr[9] != "" && arr[7] == 'x' && arr[8] == 'x' && arr[9] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[7] != "" && arr[8] != "" && arr[9] != "" && arr[7] == 'o' && arr[8] == 'o' && arr[9] == 'o') {
-                alert("O is winner");
-            }
+        <div id="block7" onclick="k('box7','box71')">
+            <div class="red"  id="box7">x</div>
+            <div class="blue" id="box71">o</div>
+        </div>
+        <div id="block8" onclick="k('box8','box81')">
+            <div class="red"  id="box8">x</div>
+            <div class="blue" id="box81">o</div>
+        </div>
+        <div id="block9" onclick="k('box9','box91')">
+            <div class="red"  id="box9">x</div>
+            <div class="blue" id="box91">o</div>
+        </div>
 
+    </div>
+    <div id="player2">Player2</div>
+    <div id="score2">0</div>
+<button id="btn" onclick="but()">Reset</button>
+<button id="btn2" onclick="end()">End</button>
 
-
-            if (arr[1] != "" && arr[4] != "" && arr[7] != "" && arr[1] == 'x' && arr[4] == 'x' && arr[7] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[1] != "" && arr[4] != "" && arr[7] != "" && arr[1] == 'o' && arr[4] == 'o' && arr[7] == 'o') {
-                alert("O is winner");
-            }
-            if (arr[2] != "" && arr[5] != "" && arr[8] != "" && arr[2] == 'x' && arr[5] == 'x' && arr[8] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[2] != "" && arr[5] != "" && arr[8] != "" && arr[2] == 'o' && arr[5] == 'o' && arr[8] == 'o') {
-                alert("O is winner");
-            }
-            if (arr[3] != "" && arr[6] != "" && arr[9] != "" && arr[3] == 'x' && arr[6] == 'x' && arr[9] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[3] != "" && arr[6] != "" && arr[9] != "" && arr[3] == 'o' && arr[6] == 'o' && arr[9] == 'o') {
-                alert("O is winner");
-            }
-
-
-
-            if (arr[1] != "" && arr[5] != "" && arr[9] != "" && arr[1] == 'x' && arr[5] == 'x' && arr[9] == 'x') {
-                alert("X is winner");
-            }
-            if (arr[1] != "" && arr[5] != "" && arr[9] != "" && arr[1] == 'o' && arr[5] == 'o' && arr[9] == 'o') {
-                alert("O is winner");
-
-
-
-                if (arr[3] != "" && arr[5] != "" && arr[7] != "" && arr[3] == 'x' && arr[5] == 'x' && arr[7] == 'x') {
-                    alert("X is winner");
-                }
-                if (arr[3] != "" && arr[5] != "" && arr[7] != "" && arr[3] == 'o' && arr[5] == 'o' && arr[7] == 'o') {
-                    alert("O is winner");
-                }
-            }
-        }
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
